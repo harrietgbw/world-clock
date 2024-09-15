@@ -62,7 +62,8 @@ function updateCity(event) {
     "A"
   )}</small></div>
     </div>
-  `;
+  <a href="https://spontaneous-llama-b8c303.netlify.app/">Click here to return to homepage</a>
+    `;
 }
 
 let citySelectElement = document.querySelector("#city");
