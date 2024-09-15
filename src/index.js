@@ -49,7 +49,10 @@ function updateCity(event) {
   }
   let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities");
-  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+  let cityName = cityTimeZone
+    .replace("_", " ")
+    .replace("GMT+2", "Tromsø")
+    .split("/")[1];
 
   citiesElement.innerHTML = `
     <div class="city">
