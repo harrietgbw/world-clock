@@ -40,6 +40,7 @@ function updateTime() {
     "h:mm:ss [<small>]A[</small>]"
   );
 }
+
 setInterval(updateTime, 1000);
 
 function updateCity(event) {
